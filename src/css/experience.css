@@ -1,0 +1,11 @@
+.experience-section {
+  float: right;
+  width: 80%;
+  height: 100%;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  /* box-shadow: -3px 0 3px rgba(0, 0, 0, 0.3); */
+  z-index: 4;
+}

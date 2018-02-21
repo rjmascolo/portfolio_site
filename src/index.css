@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Hompage */
+.main-section {
+  margin-top: 4em;
+  height: 100%;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  /* box-shadow: -3px 0 3px rgba(0, 0, 0, 0.3); */
+  background-color:gray;
+  z-index: 4;
+}
+
+.homepage-image {
+  width: 100%;
+}
+
+.mobile-homepage-info{
+  visibility: hidden;
+  height: 0;
+}
+
+.mobile {
+  padding: 0;
+  margin: 0;
+  visibility: hidden;
+}
+
+.home {
+  color: white;
+  position: absolute;
+  text-shadow: 2px 2px gray;
+}
+
+.homepage-h1 {
+  font-family: 'Space Mono', monospace;
+  top: 100px;
+  left: 0;
+  width: 100%;
+}
+
+.homepage-p {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.2em;
+  color:white;
+  top: 250px;
+  left: 0;
+  width: 100%;
+}
+
+.homepage-icon-container {
+  top: 290px;
+  text-align: center;
+  width: 100%;
+}
+
+#icon-homepage {
+  /* margin: .4em 0 .4em 1em; */
+  color: white;
+  font-size: 4em;
+  margin: 0 .3em;
+  background-color: #5D6A7F;
+  padding: .2em;
+  border-radius: 50%;
+  text-shadow: 0px 0px black;
+}
+
+img {
+  position:relative;
+  opacity: .5;
+}
+
+/* About Section */
+.about-section {
+  padding: 5em 6em 7em 6em;
+  height: 100%;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background-color: #5D6A7F;
+  /* box-shadow: -3px 0 3px rgba(0, 0, 0, 0.3); */
+  z-index: 4;
+}
+
+.about-header {
+  font-family: 'Space Mono', monospace;
+  font-size: 3em;
+  /* margin: 0 0 .5em 0; */
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+  color: white;
+}
+
+.about-content {
+  text-align: left;
+  color: white;
+  font-size: 1.2em;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* Skills Section */
+
+.skills-section {
+  height: 100%;
+  display:grid;
+  grid-template-columns: 20% 70%;
+  padding: 9em 1em 6em 1em;
+  background-image:url("./images/hypnotize.png");
+}
+
+.flex {
+  display:flex;
+  justify-content: space-around;
+}
+.section-header {
+  text-align: right !important;
+}
+
+.skills-header {
+  font-family: 'Space Mono', monospace;
+  font-size: 1.6em;
+  margin: 0 0 .5em 0;
+  text-align: left;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+  text-transform: uppercase;
+}
+
+.skill-details {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1.1em;
+  margin: 0;
+  text-align: left;
+}
+
+/* Project Section */
+
+.projects-section {
+  height: 100%;
+  display:grid;
+  grid-template-columns: 20% 70%;
+  padding: 5em 1em 4em 1em;
+  z-index: 4;
+}
+
+.project-container {
+  padding: 2em 2em;
+  width: 75%;
+}
+
+.project-header-container {
+  display:flex;
+  justify-content: space-between;
+}
+
+#community {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 1.4em;
+}
+
+#really-good {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.4em;
+}
+
+.project-title {
+  font-size: 1.2em;
+  font-family: 'Merriweather Sans', sans-serif;
+  text-align: left;
+  font-weight: bold;
+  margin: 1em 0;
+  display: inline;
+}
+
+#icon {
+  font-size: 1.8em;
+  margin: 0 0 0 1em;
+  /* margin: .4em 0 .4em 1em; */
+}
+
+#youtube-icon {
+  font-size: 1.8em;
+  margin: 0 0 0 .5em;
+  color:#cc181e;
+}
+.site-arrow {
+  font-size: 1.5em;
+  color: #007bff;
+  margin: 0 2.5em 0 0;
+}
+
+.project-details {
+  text-align: left;
+}
+
+.languages-container {
+  align-items: left;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.languages-used-item {
+    display: inline-block;
+    margin: 3px 3px 3px 0;
+    font-family: Inconsolata,monospace;
+    font-size: .8rem;
+    font-weight: 700;
+    padding: 2px 7px;
+    border-radius: 3px;
+    color: #007bff;
+    border: 1px solid #007bff;
+    background: 0 0;
+  }
+
+  a {
+    color: black;
+  }

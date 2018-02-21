@@ -1,0 +1,109 @@
+@media only screen and (max-width: 700px)  {
+ .nav-ul {
+    /* padding: 0 1em !important; */
+  }
+  #nav-text {
+    visibility: hidden;
+  }
+  .nav-li {
+    margin: 0 1em !important;
+    min-width: 2em !important;
+    max-width: 100% !important;
+  }
+  .mobile-block {
+    display:block;
+    width: 6em;
+  }
+/* Main section */
+ .main-section {
+    /* margin-top: 0; */
+  }
+
+  .image-wrapper {
+    width:100%;
+    height: 32em;
+    position: relative;
+    overflow:hidden;
+  }
+
+  .homepage-image {
+    width: 200%;
+    position: absolute;
+    top: -9999px;
+    bottom: -9999px;
+    left: -9999px;
+    right: -9999px;
+    margin: auto;
+  }
+  .mobile-homepage-info {
+    visibility: visible;
+    height: 12em;
+  }
+
+  .desktop-homepage-info {
+    visibility: hidden;
+  }
+
+  .mobile {
+    visibility: visible;
+    padding: .2em;
+    margin: 0;
+  }
+
+ .homepage-h1 {
+   font-size: 2.5em;
+   text-shadow: 2px 2px gray;
+   color:white;
+  }
+  .homepage-p {
+    font-size: 1em;
+    text-shadow: 2px 2px gray;
+    margin-bottom: .3em
+  }
+  .homepage-icon-container {
+    top: 24em;
+  }
+  /* About Me section */
+  .about-section {
+    padding: 4em 1.5em;
+  }
+  .about-header {
+    margin-top: 0;
+  }
+
+  /* Skills Section */
+  .skills-section {
+    padding: 4em 1.5em 6em 3em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section-header {
+    margin-bottom: 2em
+  }
+  .flex {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .skills-list {
+    margin: 0 2em 2em 0;
+  }
+
+  /* project section */
+  .projects-section {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .project-container {
+    width:100%;
+    padding: 1em 0 0 0;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .mobile-block {
+    width: 100%;
+  }
+}
