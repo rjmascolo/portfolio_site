@@ -26,6 +26,7 @@ class Skills extends React.Component {
               <ul className="skill-details">
                 <li>Ruby On Rails</li>
                 <li>React</li>
+                <li>Redux</li>
                 <li>Sinatra</li>
               </ul>
             </div>
@@ -38,6 +39,7 @@ class Skills extends React.Component {
                 <li>Postman</li>
                 <li>Semantic UI</li>
                 <li>Bootstrap</li>
+                <li>AWS</li>
               </ul>
             </div>
           </div>
