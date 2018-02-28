@@ -15,7 +15,7 @@ class Projects extends React.Component {
                   <h2 className="project-title">Marketr MGMT</h2>
                   <span>
                     <a href="https://github.com/rjmascolo/marketr_MGMT_frontend" rel="noopener noreferrer" target="_blank"><i className="fab fa-github" id="icon"></i></a>
-                    {/* <a target="_blank"><i className="fab fa-youtube" id="youtube-icon"></i></a> */}
+                    <a href="https://www.youtube.com/watch?v=vEOv542KvnI" target="_blank"><i className="fab fa-youtube" id="youtube-icon"></i></a>
                   </span>
                 </div>
                 <a href="https://marketr-mgmt-frontend.firebaseapp.com/" target="_blank" rel="noopener noreferrer"><span className="site-arrow">&#8680;</span></a>
