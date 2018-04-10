@@ -63,6 +63,7 @@ class App extends Component {
     this.getDivCoordinates()
     document.getElementsByClassName('triangle-topleft')[0].className = 'goLeft triangle-topleft';
     document.getElementsByClassName('triangle-bottomright')[0].className = 'goRight triangle-bottomright'
+    var navli = document.getElementsByClassName('nav-ul')[0].className = 'moveNavDown nav-ul'
   }
 
   handleScroll = (event) => {
