@@ -5,9 +5,20 @@ import image from "../images/andre-benz-257878.jpg"
 class Homepage extends React.Component {
 
   render() {
+
+    const leftStyle = {
+        borderTop: `${this.props.windowWidthHeight.height}px solid black`,
+        borderRight: `${this.props.windowWidthHeight.width}px solid transparent`
+    };
+    const rightStyle = {
+        borderBottom: `${this.props.windowWidthHeight.height}px solid black`,
+        borderLeft: `${this.props.windowWidthHeight.width+1}px solid transparent`
+    };
     return (
       <section className="main-section" id="homepage">
         <div className="image-wrapper">
+          <div class="triangle-topleft" style={leftStyle}></div>
+          <div class="triangle-bottomright" style={rightStyle}></div>
           <img onLoad={this.props.handleOnLoad} src={image} className="homepage-image" />
         </div>
         <div className="desktop-homepage-info">

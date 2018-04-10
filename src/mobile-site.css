@@ -14,8 +14,8 @@
     display:block;
     width: 6em;
   }
-  .active {
-    border-bottom: 0px solid #3565B2; */
+  .nav-li.active {
+    border-bottom: 0px solid #3565B2 ;
     color: #5D6A7F;
   }
 /* Main section */
