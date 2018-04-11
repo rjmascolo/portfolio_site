@@ -32,7 +32,6 @@ class App extends Component {
 
   getWindowSize = () => {
     const windowWidth = window.innerWidth
-    console.log(windowWidth, windowWidth/1.5006321112515804)
     this.setState({windowWidthHeight: {
       width: windowWidth,
       height: windowWidth/1.5006321112515804
@@ -63,7 +62,7 @@ class App extends Component {
     this.getDivCoordinates()
     document.getElementsByClassName('triangle-topleft')[0].className = 'goLeft triangle-topleft';
     document.getElementsByClassName('triangle-bottomright')[0].className = 'goRight triangle-bottomright'
-    var navli = document.getElementsByClassName('nav-ul')[0].className = 'moveNavDown nav-ul'
+    document.getElementsByClassName('nav-ul')[0].className = 'moveNavDown nav-ul'
   }
 
   handleScroll = (event) => {

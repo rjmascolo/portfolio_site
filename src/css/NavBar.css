@@ -2,7 +2,7 @@
   width:100%;
   display:flex;
   justify-content: center;
-  position: absolute;
+  position: fixed;
   top: -4em;
   z-index: 15;
   background-color:white;
@@ -11,7 +11,6 @@
 }
 
 .moveNavDown {
-  position: fixed;
   top:0;
   border-bottom: 1px solid rgba(34,36,38,.05);
   transition: top .7s ease-in,
