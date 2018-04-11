@@ -32,11 +32,19 @@ class App extends Component {
 
   getWindowSize = () => {
     const windowWidth = window.innerWidth
-    this.setState({windowWidthHeight: {
-      width: windowWidth,
-      height: windowWidth/1.5006321112515804
+    if (windowWidth > 416){
+      this.setState({windowWidthHeight: {
+          width: windowWidth,
+          height: windowWidth/1.5006321112515804
+        }
+      })
+    } else {
+      this.setState({windowWidthHeight: {
+          width: windowWidth,
+          height: 416
+        }
+      })
     }
-  })
   }
 
   getDivCoordinates = () => {

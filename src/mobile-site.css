@@ -25,16 +25,16 @@
 
   .image-wrapper {
     width:100%;
-    height: 26em;
+    height: 416px;
     position: relative;
     overflow:hidden;
   }
-  .triangle-topleft {
-    visibility: hidden !important;
+  .triangle-topleft{
+    /* visibility: hidden !important; */
   }
 
-  .triangle-bottomright {
-    visibility: hidden !important;
+  .triangle-bottomright{
+    /* visibility: hidden !important; */
   }
 
   .homepage-image {
