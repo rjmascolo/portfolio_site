@@ -29,13 +29,6 @@
     position: relative;
     overflow:hidden;
   }
-  .triangle-topleft{
-    /* visibility: hidden !important; */
-  }
-
-  .triangle-bottomright{
-    /* visibility: hidden !important; */
-  }
 
   .homepage-image {
     width: 200%;
