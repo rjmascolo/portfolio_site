@@ -32,7 +32,7 @@ class App extends Component {
 
   getWindowSize = () => {
     const windowWidth = window.innerWidth
-    if (windowWidth > 416){
+    if (windowWidth > 700){
       this.setState({windowWidthHeight: {
           width: windowWidth,
           height: windowWidth/1.5006321112515804
